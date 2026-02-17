@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 >SCOREBOARD</h1>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+                <p class="score" id="home-el"></p>
+                <button class="btn" onclick = "increment1PointHome()">+ 1</button>
+                <button class="btn" onclick = "increment2PointHome()">+ 2</button>
+                <button class="btn" onclick = "increment3PointHome()">+ 3</button>
+            </div>
+            <div>
+                <h3 class="title">GUEST</h3>
+                <p class="score" id="guest-el"></p>
+                <button class="btn" onclick = "increment1PointGuest()">+ 1</button>
+                <button class="btn" onclick = "increment2PointGuest()">+ 2</button>
+                <button class="btn" onclick = "increment3PointGuest()">+ 3</button>
+            </div>
+        </div>
+        <button id = "new-btn" onclick="reset()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
